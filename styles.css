@@ -23,26 +23,24 @@ body{
   font-size:26px;
   font-style: italic;
 }
-nav{
+.main-nav{
   background-color:rgb(235, 235, 235);
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  padding-left:150px;
 }
 .nav-list{
-    color: black;
-    font-weight: bold;
-    padding-left:150px;
     margin-top:0;
+    padding-left:0;
 }
 .nav-item{
-  font-size: 17px;
   display: inline-block;
-  padding: 15px 10px 15px 0;
+  padding: 15px 7px 15px 0;
 }
-.main{
-  background-color:rgb(255,255,255);
-  height:599px;
-  margin-top:-18px;
+.main-container{
   padding-left:150px;
-  padding-top:23px;
+  padding-bottom:23px;
 }
  .para2{
   margin-bottom:-15px;
@@ -81,34 +79,28 @@ nav{
 figcaption{
   font-size:14px;height:44px;padding-top:19px;
 }
-.footer-image{
-  position:relative;
-  top:-13px;
-  left:-41px;
+
+
+
+footer{
+  background-image:url("images/footer-image.jpg");
 }
-.logo{
-  position:absolute;
-  top:1097px;
-  left:502px;
-}
-.nav-footer{
-  position:absolute;
-  left:485px;
-  bottom:-670px;
+.footer-content{
+  color: #e9e9e9;
   text-align:center;
-  color:white;
+  margin-left:auto;
+  margin-right:auto;
+  width: 400px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
-.span1{
-  position:absolute;
-  left:472px;
-  bottom:-648px;
-  text-align:center;
-  color:white;
+.footer-content .logo{
+  width:300px;
 }
-.span2{
-  position:absolute;
-  left:520px;
-  bottom:-732px;
-  text-align:center;
-  color:white;
+.footer-nav{
+  font-size:14px;
+  font-weight: bold;
+}
+.footer-content .copyright{
+  font-size:14px;
 }
