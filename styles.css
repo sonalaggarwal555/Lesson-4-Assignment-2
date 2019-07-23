@@ -1,24 +1,20 @@
-.container{
-  position: relative;
-  top : 30px;
-  height: 295px;
-  background-color:#2c9ab7;
-  color:white;
+body{
+  margin:0;
 }
 .banner{
-  position relative;
-  top:-1px;
-  left:-1px;
-  width: 1248px;
   height: 295px;
+  background-color:#2c9ab7;
+  background-image: url("images/banner-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
 }
-h1{
+.banner .heading{
   position:absolute;
   top: 21px;
   padding-top: 80px;
   padding-left: 150px;
   font-size:45px;
-  font-family: sans-serif;
 }
 .nav-cls{
   background-color:rgb(235, 235, 235);
