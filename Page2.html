@@ -1,35 +1,44 @@
+<!--Accessibility strategies used in this page:
+   1. Use mark-up to convey meaning and structure
+   2. Include alternative text for images
+   3. Identify page language and language changes
+   4. Avoid CAPTCHA where possible
+   5. Associate a label with every form control
+ -->
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
   <head>
     <meta charset="utf-8">
     <title>Kittens-to-go-mockup</title>
     <link rel="stylesheet" href="styles-Page2.css">
-    </head>
-    <body>
+  </head>
 
-      <header class="banner">
-        <section class="banner-content">
+  <body>
+  <!-- Header -->
+ <header>
+        <div class="banner-content">
           <h1 class="heading">KITTIES TO GO!</h1>
           <p class="description">Seattle's premiere drive-thru cat rentals</p>
-        </section>
-     </header>
-
-     <nav class="main-nav">
-       <ul class="nav-list">
-         <li class="nav-item">About</li>
-         <li class="nav-item">/</li>
-         <li class="nav-item">Rates</li>
-         <li class="nav-item">/</li>
-         <li class="nav-item">Liability Release</li>
-         <li class="nav-item">/</li>
-         <li class="nav-item">Kitty Profiles</li>
-         <li class="nav-item">/</li>
-         <li class="nav-item">Book a Cat</li>
-       </ul>
-     </nav>
-
-     <section class="container">
-       <section class="main-content">
+        </div>
+ </header>
+  <!-- Navigation Bar -->
+ <nav>
+   <ul class="nav-list">
+     <li class="nav-item">About</li>
+     <li class="nav-item">/</li>
+     <li class="nav-item">Rates</li>
+     <li class="nav-item">/</li>
+     <li class="nav-item">Liability Release</li>
+     <li class="nav-item">/</li>
+     <li class="nav-item">Kitty Profiles</li>
+     <li class="nav-item">/</li>
+     <li class="nav-item">Book a Cat</li>
+   </ul>
+ </nav>
+  <!-- Section -->
+   <section>
+  <!-- Article -->
+     <article>
          <table id="customers">
            <tr>
            <th>S.No.</th>
@@ -87,33 +96,37 @@
            <td>$25,000</td>
            </tr>
          </table>
-        </section>
-       <section class="sidebar">
+       </article>
+
+   <!-- Aside -->
+     <aside>
          <h3><strong>CATS IN THE NEWS</strong></h3>
          <p class="content-description">Chew iPad power cord why must they do
          that, grab pompom in mouth and put in
          water dish.</p>
-         <nav class="sidebar-links">Find out more >></nav>
+         <div class="sidebar-links">Find out more >></div>
          <p class="sidebar-description">Chew iPad power cord why must they do
            that, grab pompom in mouth and put in
            water dish.</p>
-         <nav class="sidebar-links">Find out more >></nav>
+         <div class="sidebar-links">Find out more >></div>
          <figure class="sidebar-figure">
            <h3 class="sidebar-figure-heading">CAT OF THE WEEK</h3>
-           <img src="images/sidebar-cat.jpg" alt="sidebar-image">
+           <img src="images/sidebar-cat.jpg" alt="sidebar-image of Cat of the week">
            <figcaption class="sidebar-figcaption">Stare at imaginary bug love blinks and
              purr purr purr purr</figcaption>
-          <nav class="sidebar-links"><a href="#">Book Now>> </a></nav>
+          <div class="sidebar-links"><a href="#">Book Now>> </a></div>
          </figure>
-       </section>
-      </section>
+       </aside>
 
-      <footer>
+  </section>
+
+  <!-- Footer -->
+  <footer>
         <figure class="footer-content">
             <img src="images/cat-logo.png" class="logo" alt="cat-logo">
             <figcaption class="img-caption">Aborpos nisto inci tet aut que
               volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</figcaption>
-            <nav class="footer-nav">
+            <div class="footer-nav">
               <ul class="nav-list">
                 <li class="nav-item">Footer link 1</li>
                 <li class="nav-item">/</li>
@@ -123,11 +136,12 @@
                 <li class="nav-item">/</li>
                 <li class="nav-item">Footer link 4</li>
               </ul>
-            </nav>
+            </div>
             <p class="copyright">© 2018 Kitties To Go!, LLC | Seattle, WA</p>
 
         </figure>
       </footer>
 
-    </body>
+</body>
+
 </html>
