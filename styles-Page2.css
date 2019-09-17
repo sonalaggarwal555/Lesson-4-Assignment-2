@@ -39,22 +39,18 @@ nav{
   padding: 15px 7px 15px 0;
 }
 .section{
-  display: inline-block;
+  display: flex;
   padding-left:150px;
   padding-right:150px;
   padding-bottom:23px;
 }
-section article{
-  display:inline-block;
-  width:65%;
-  float:left;
-  font-size: medium;
-  padding-top:35px;
+article{
+  flex:65%;
+  margin:30px;
 }
-section aside{
-  width:25%;
-  float:right;
-  margin-top:12px;
+aside{
+  flex:25%;
+  margin:20px;
 }
 aside .sidebar-description{
   font-size:15px;
