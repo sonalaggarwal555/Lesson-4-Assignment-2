@@ -1,6 +1,7 @@
 body{
   margin:0;
   box-sizing: border-box;
+  filter:contrast(100%);
 }
 header{
   height: 295px;
@@ -13,6 +14,14 @@ header > div{
   padding-top: 45px;
   padding-left: 150px;
   width:335px;
+}
+a{
+  transition :3s;
+}
+a:hover{
+  color: hotpink;
+  text-decoration: 'underline';
+  font-size: 20px;
 }
 .heading{
   font-size:42px;

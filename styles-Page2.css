@@ -1,5 +1,6 @@
 body{
   margin:0;
+  filter:contrast(100%);
 }
 header{
   height: 295px;
@@ -8,6 +9,14 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+}
+a{
+  transition :3s;
+}
+a:hover{
+  color: hotpink;
+  text-decoration: 'underline';
+  font-size: 20px;
 }
 .banner-content{
   padding-top: 45px;
